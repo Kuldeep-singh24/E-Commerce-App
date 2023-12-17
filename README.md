@@ -1,1 +1,1 @@
-https://kuldeep-singh24.github.io/HTML_Ecommerce/
+https://kuldeep-singh24.github.io/E-Commerce-App/
