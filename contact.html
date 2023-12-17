@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1{
+            text-decoration: solid;
+            text-align: center;
+        }
+        form{
+            width: 100%;
+            height: 100%;
+        }
+        .form-area {
+            margin-left: 50px;
+        }
+        form > *{
+            width: 400px;
+            height: 40px;
+        }
+        textarea {
+            height: 120px;
+        }
+        .submit-btn {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <h1>Contact Us</h1>
+    <div class="row">
+         <div class="col img-area">
+           <img src="image/contact.jpg" width="400px" height="400px">
+           
+         </div>
+         <div class="col form-area">
+            <form action="">
+                <h4>Name:</h4>
+                <input type="text" placeholder="Enter your name">
+                <h4>E-mail:</h4>
+                <input type="text" placeholder="Enter your E-mail">
+                <h4>Message:</h4>
+                <textarea name="text" id=""  placeholder="Enter your message"></textarea>
+                <br>
+                <button class="submit-btn">Submit</button>
+            </form>
+         </div>
+    </div>
+</body>
+</html>
